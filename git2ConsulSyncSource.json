@@ -1,22 +1,17 @@
 {
-  "DEV":[{
-	"LogModule":{
-			"ip":"172.28.12.01",
-			"processesConfigurationData":[
-				{
-					"ProcessName":"ConnectivityService",
-					"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Service.App.exe",
-					"IsProcessStartOnStartUp": true,
-					"ProcessNumberOfExecutionTrials": 5
-				},
-				{
-					"ProcessName":"LocalStartup",
-					"ProcessPath":"..\\..\\Apps.SiteManager.Startup.Service.App.exe",
-					"IsProcessStartOnStartUp": false,
-					"ProcessNumberOfExecutionTrials": 1
-				}
-			]
-		}
-		}
-	]
+  "ip":"172.28.12.01",
+"processesConfigurationData":[
+	{
+		"ProcessName":"ConnectivityService",
+		"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Service.App.exe",
+		"IsProcessStartOnStartUp": true,
+		"ProcessNumberOfExecutionTrials": 5
+	},
+	{
+		"ProcessName":"LocalStartup",
+		"ProcessPath":"..\\..\\Apps.SiteManager.Startup.Service.App.exe",
+		"IsProcessStartOnStartUp": false,
+		"ProcessNumberOfExecutionTrials": 1
+	}
+]
 }
