@@ -3,7 +3,13 @@
   "UseFailover": true,
   "IsProcessUsingUI": "false",
   "Failover": 15,
-  "processesConfigurationData":"[
+  "processesConfigurationData222":{
+	"ProcessName":"Seq",
+		"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq1.App.exe",
+		"IsProcessStartOnStartUp": true,
+		"ProcessNumberOfExecutionTrials": 5
+  },
+  "processesConfigurationData":[
 	{
 		"ProcessName":"Seq",
 		"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq1.App.exe",
@@ -16,5 +22,5 @@
 		"IsProcessStartOnStartUp": false,
 		"ProcessNumberOfExecutionTrials": 1
 	}
-]"
+]
 }
