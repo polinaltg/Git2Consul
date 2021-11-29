@@ -9,6 +9,12 @@
 		"IsProcessStartOnStartUp": true,
 		"ProcessNumberOfExecutionTrials": 5
   },
+  "processesConfigurationData222":{
+	"ProcessName":"LocalStartup",
+		"ProcessPath":"..\\..\\Apps.SiteManager.Startup.Seq2.App.exe",
+		"IsProcessStartOnStartUp": false,
+		"ProcessNumberOfExecutionTrials": 1
+  },
   "processesConfigurationData":[
 	{
 		"ProcessName":"Seq",
