@@ -1,0 +1,26 @@
+{
+	"WaitForAntennaDataResultTimeoutMs": 500,
+	"InertialRollAxisTolerance": 3.4,
+	"AzimuthLimit": {
+		"StartSectorAzimuth":{
+			"Value": -55.02,
+			"Degree": 6541.46449463313
+		},
+		"StartSectorAzimuth":{
+			"Value": -88.02,
+			"Degree": 22.0002
+		},
+		"IsClockwise": false
+	},
+	"BonBonLimit": {
+		"StartSectorAzimuth":{
+			"Value": -55.02,
+			"Degree": 6541.46449463313
+		},
+		"StartSectorAzimuth":{
+			"Value": -88.02,
+			"Degree": 22.0002
+		},
+		"IsClockwise": true
+	}	
+}

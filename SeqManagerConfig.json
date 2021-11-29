@@ -4,31 +4,17 @@
   "IsProcessUsingUI": "false",
   "Failover": 15,
   "processesConfigurationData":{
-		"Seq1":{
-			"ProcessName":"Seq1",
-			"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq1.App.exe",
+		"ConnectivityService":{
+			"ProcessName":"ConnectivityService",
+			"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.ConnectivityService.App.exe",
 			"IsProcessStartOnStartUp": true,
 			"ProcessNumberOfExecutionTrials": 5
 		},
-		"Seq2":{
-			"ProcessName":"Seq2",
-			"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq2.App.exe",
+		"LocalStartup":{
+			"ProcessName":"LocalStartup",
+			"ProcessPath":"..\\..\\Apps.SiteManager.Startup.Seq2.App.exe",
 			"IsProcessStartOnStartUp": false,
 			"ProcessNumberOfExecutionTrials": 1
 		}
-  },
-  "processesConfigurationData22":[
-	{
-		"ProcessName":"Seq",
-		"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq1.App.exe",
-		"IsProcessStartOnStartUp": true,
-		"ProcessNumberOfExecutionTrials": 5
-	},
-	{
-		"ProcessName":"LocalStartup",
-		"ProcessPath":"..\\..\\Apps.SiteManager.Startup.Seq2.App.exe",
-		"IsProcessStartOnStartUp": false,
-		"ProcessNumberOfExecutionTrials": 1
-	}  
-]
+  }
 }
