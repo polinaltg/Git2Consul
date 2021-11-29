@@ -1,0 +1,17 @@
+{
+  "ip":"172.28.12.156",
+"processesConfigurationData":[
+	{
+		"ProcessName":"Seq",
+		"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq1.App.exe",
+		"IsProcessStartOnStartUp": true,
+		"ProcessNumberOfExecutionTrials": 5
+	},
+	{
+		"ProcessName":"LocalStartup",
+		"ProcessPath":"..\\..\\Apps.SiteManager.Startup.Seq2.App.exe",
+		"IsProcessStartOnStartUp": false,
+		"ProcessNumberOfExecutionTrials": 1
+	}
+]
+}
