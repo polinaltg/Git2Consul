@@ -6,7 +6,7 @@
 			"Value": -55.02,
 			"Degree": 6541.46449463313
 		},
-		"StartSectorAzimuth":{
+		"EndSectorAzimuth":{
 			"Value": -88.02,
 			"Degree": 22.0002
 		},
@@ -15,11 +15,11 @@
 	"BonBonLimit": {
 		"StartSectorAzimuth":{
 			"Value": -55.02,
-			"Degree": 6541.46449463313
+			"Degree": 7541.4644
 		},
-		"StartSectorAzimuth":{
-			"Value": -88.02,
-			"Degree": 22.0002
+		"EndSectorAzimuth":{
+			"Value": -1008.02,
+			"Degree": 2112.0002
 		},
 		"IsClockwise": true
 	}	
