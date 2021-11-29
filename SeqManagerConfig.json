@@ -1,6 +1,9 @@
 {
   "ip":"172.28.12.156",
-"processesConfigurationData":[
+  "UseFailover": true,
+  "IsProcessUsingUI": "false",
+  "Failover": 15,
+  "processesConfigurationData":[
 	{
 		"ProcessName":"Seq",
 		"ProcessPath":"..\\..\\Apps.SiteManager.Connectivity.Seq1.App.exe",
